@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  
+  <script src="Log.js"></script>
+  <script src="Box.js"></script>
+  <script src="Box2.js"></script>
+
+  
+</head>
+
+<body>
+
+  <a-scene background="color:#000000">
+
+    <a-camera position="0 0 5">
+
+    </a-camera>
+
+    <a-entity log="message: Hi, It's me Ishita"></a-entity>
+    <a-entity position = "0 0 0" move-box>
+
+        <a-box></a-box>
+    </a-entity>
+
+    <a-entity rotation = "5 4 3" rotate-box>
+
+        <a-box></a-box>
+    </a-entity>
+
+  </a-scene>
+
+</body>
+
+</html>
